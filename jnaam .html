@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+  
+doc = Document()
+doc.add_heading("Muhammad Rizwan – Roshan Mustaqbil Ki Talaash", 0)
+
+# Story content
+story_paragraphs = [
+    "Karachi ke ek purane lekin zinda dil ilaaqe mein ek ladka rehta tha — Muhammad Rizwan. "
+    "Bairooni taur par woh dusron jaisa hi lagta, lekin andar se woh mukhtalif tha. Allah ne usay ek narm dil, "
+    "azeem irade, aur roohani noor se nawaza tha.",
+    
+    "Rizwan ka safar ek mamooli school se shuru hua. Matric usne LOMENA se kiya – aik aisi jagah jahan usne sirf "
+    "kitaabi ilm nahi, balkay zindagi ka pehla dars bhi seekha. Phir usne Intermediate bhi LOMENA se mukammal kiya. "
+    "Har imtihan mein, har mushkil mein usne sabr aur lagan ka saboot diya.",
+    
+    "Lekin uska asal maqsood sirf degree hasil karna nahi tha. Usne Quran ko apne dil se lagaya. 2018 mein, Rizwan ne "
+    "apni Hifz-e-Quran mukammal ki, aur Idara Maari-ul-Quran se sanad hasil ki. Hafiz banna ek badi zimmedari thi — us "
+    "ne har lafz ko na sirf yaad rakha, balkay apni zindagi mein utarna shuru kiya.",
+    
+    "Magar Rizwan yahin rukne wala nahi tha. Usne socha, \"Main sirf deen nahi, duniya mein bhi aage barhoon ga. Ek "
+    "misaal banoon ga un logon ke liye jo dono jahaan ki kamiyabi chahte hain.\"",
+    
+    "Isi soch ne use ACCA ki taraf le gaya. Log kehte: \"Yeh course mushkil hai, English kaafi zaroori hai, aur fail "
+    "hone ka khauf rehta hai.\" Lekin Rizwan ka jawab tha: \"Jisne Quran yaad kiya ho, uske liye kya mushkil?\"",
+    
+    "Usne MA1 ka paper diya — mushkil tha, lekin kamiyabi se paas kiya. Phir FA2 aur MA2 ke raste par chala. Har din "
+    "ek naye challenge ka samna, lekin uska hausla kabhi kam nahi hua.",
+    
+    "Usi dauraan usne IELTS bhi shuru kiya. Subha IELTS, raat ko ACCA — ek musalsal jang thi waqt, zaban, aur thakan "
+    "ke saath. Kabhi kabhi tension itna barh jata ke sir dard ho jata, lekin uska jazba keh raha hota: \"Rizwan, rukna mana hai.\"",
+    
+    "Uska bhai uski madad karta — English mein guftagu karta, taake uski fluency behtar ho. Wo har waqt improvement "
+    "ki taraf ja raha tha, bina shikayat ke, bina rukawat ke.",
+    
+    "Rizwan ka ek aur khaas jazba tha: uska khwab auditor banne ka. Lekin wo sirf auditor nahi, imaandari ka nishan "
+    "banna chahta tha. Usay sirf paisa nahi chahiye tha — usay izzat, asool, aur Allah ki raza chahiye thi.",
+    
+    "Aaj bhi wo ACCA ki tayari mein masroof hai. Notes tayyar kar chuka hai, revision shuru hai. Har page ke saath "
+    "uska yaqeen barhta hai ke \"Main ban sakta hoon wo shakhs, jise log sirf degree se nahi, character se yaad rakhein.\" "
+    "Wo din door nahi jab Muhammad Rizwan ek certified auditor hoga — Hafiz bhi, accountant bhi, aur misaal bhi. "
+    "Uski kahani sabit karti hai ke agar niyat saaf ho, irada buland ho, aur mehnat lagataar ho — toh koi rasta namumkin nahi."
+]
+
+# Add each paragraph multiple times to fill around 10 pages
+for _ in range(10):  # Roughly 10 pages worth of repeated content
+    for para in story_paragraphs:
+        p = doc.add_paragraph(para)
+        p.style.font.size = Pt(12)
+
+# Save document
+doc_path = "/mnt/data/Muhammad_Rizwan_Story.docx"
+doc.save(doc_path)
+
+doc_path
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+    
+</body>
+</html>

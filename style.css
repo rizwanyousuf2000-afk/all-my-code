@@ -1,0 +1,30 @@
+header{
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0);
+}
+
+
+h1{
+    color : red
+}
+h1{
+    color :  darkblue
+}
+abbr{
+    color : darkblue
+ 
+}
+blockquote{
+    color : rgba(255, 0, 0, 0.744)
+}
+body {
+    background-color : rgba(128, 128, 128, 0.452);
+  }
+  hr{
+    background-color: black;s
+  }
+  
+  .abc{
+    border: width: ;
+  }
+
